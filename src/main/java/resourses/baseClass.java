@@ -19,7 +19,7 @@ public class baseClass {
 	{
 		
 		//this is to access file
-		FileInputStream filInStream = new FileInputStream("C:\\Users\\pooja\\eclipse-workspace\\FirstMavenProject\\src\\main\\java\\resourses\\configure.properties");
+		FileInputStream filInStream = new FileInputStream(System.getProperty("User.dir")+"\\src\\main\\java\\resourses\\configure.properties");
 		
 		//read the file data
 		
